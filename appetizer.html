@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipe - Deshi Edition</title>
 </head>
 <body>
     <header>
-        <h1>Odin Recipe - Deshi Edition</h1>
+        <div class="titleBox">
+            <h1 class="pageTitle">Odin Recipe - Deshi Edition</h1>
+        </div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="appetizer.html">Appetizer</a></li>
-                <li><a href="main.html">Main</a></li>
-                <li><a href="dessert.html">Dessert</a></li>
+                <style>
+                    .appetizer{
+                        background-color: white;
+                    }
+                </style>
+                <li class="homePage"><a href="index.html">Home</a></li>
+                <li class="appetizer"><a style="color: #3E363F" href="appetizer.html">Appetizer</a></li>
+                <li class="mainDish"><a href="main.html">Main</a></li>
+                <li class="dessert"><a href="dessert.html">Dessert</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="index">
         <h2>Appetizer Recipes</h2>
         <table>
             <thead>

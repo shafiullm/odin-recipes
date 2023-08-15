@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color: #3F826D;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.recipeIntro{
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+    flex-direction: column;
+
+}
+
+.titleBox{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageTitle{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.index{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.index img{
+    padding: 0rem 2rem;
+}
+
+.index iframe{
+    padding: 0rem 2rem;
+}
+
+.index h2{
+    font-size: 2rem;
+}
+
+.index p{
+    padding: 2rem 10rem 2rem 10rem;
+    font-size: 1.2rem;
+}
+
+.imageContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 3;
+    
+}
+
+.ic{
+    border-radius: 8px;
+    width: 450px;
+    height: auto;
+    opacity: 1;
+    perspective: 141px;
+}
+
+.ic:hover{
+    transform: rotateX(12deg) rotateY(13deg);
+    transform-style: preserve-3d;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav li{
+    padding: 10px 10px;
+    background: #E2725B;
+    flex: 1;
+    text-align: center;
+    
+}
+
+nav li a{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    transition: color 0.2s linear 0s;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #263238;
+}
+
+table {
+    margin-top: 2rem;
+}
+
+th, td {
+    border: 0px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr a{
+    text-decoration: none;
+    transition: background-color 0.5s ease 0s;
+}
+
+tr a:hover{
+    background-color: #F5F5F5;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3F826D;
+    color: #F5F5F5;
+    padding: 10px 0;
+    text-align: center;
+}
